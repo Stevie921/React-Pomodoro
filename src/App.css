@@ -1,0 +1,63 @@
+body {
+  user-select: none;
+  text-align:  center;
+  background: #1468E6;
+  font-family: Verdana;
+}
+
+p {
+  display: inline-block;
+  margin: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+span {
+  font-size: 1.2em;
+}
+
+.fas {
+  font-size: 1.2em;
+  margin: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fas:hover {
+  
+}
+
+.label {
+  margin-left: 15px;
+}
+
+#timer {
+  border: 5px solid;
+  border-radius: 10px;
+  width: 50%;
+  height: 300px;
+  margin: 15px auto;
+  background: #ffe;
+  padding-top: 40px;
+}
+
+#time-left {
+  display: block;
+  font-size: 3em;
+}
+
+button {
+  border: none;
+  width: 130px;
+  padding: 10px;
+  margin: 10px;
+  background: #2453FF;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  outline: 2px solid #2453FF;
+  background: #fff;
+  color: #2453FF;
+}
